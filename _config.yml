@@ -1,9 +1,33 @@
-remote_theme: benbalter/retlab
-plugins:
-- jekyll-remote-theme
+remote_theme: daviddarnes/alembic@main
 
-title: Jeremy Howard
-description: Some basic examples of client interfaces to a computer vision API
+plugins:
+  - jekyll-remote-theme
+
+title: Simple JS Image Classifiers
+description: A collection of lightweight, client-side image classification demos built in JavaScript.
 
 author:
-  name: Jeremy Howard
+  name: Mohamed Samir
+  email: abosamir123@std.mans.edu.eg
+
+lang: en
+timezone: Cairo/Egypt
+
+permalink: pretty
+markdown: kramdown
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Single-file
+    url: /single-file/
+  - title: Multi-file
+    url: /multi-file/
+  - title: Parallel
+    url: /parallel/
+
+Optional: show social links (only if you want)
+social_links:
+  - platform: github
+    user_url: https://github.com/Abosamir
